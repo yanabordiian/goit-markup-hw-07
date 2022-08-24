@@ -204,10 +204,6 @@ button {
   padding-bottom: 25px;
 }
 
-.nav__bluelogo {
-  color: #2196F3;
-}
-
 .site-nav {
   position: relative;
   list-style: none;
@@ -280,11 +276,6 @@ button {
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
 }
 
 .hero-section {
