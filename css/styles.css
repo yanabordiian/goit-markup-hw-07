@@ -1,4 +1,4 @@
->:root {
+:root {
     /* Основные шрифты и цвета */
     --main-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
@@ -41,9 +41,11 @@
         padding-right: 15px;
         margin: 0 auto;
     }
+    .cheader {display: flex;}
+    .header {border-bottom: 1px solid #ECECEC;}
     .demonstration {padding-top: 0px;}
-    .logo-blue {color: #2196F3;}
-    .logo{
+    .nav__bluelogo {color: #2196F3;}
+    .nav__logo{
         display:flex;
         text-decoration: none;
         font-family: 'Raleway';
@@ -55,10 +57,20 @@
         align-items: center;
         padding-top: 24px;
         padding-bottom:25px ;}
-.cheader {display: flex;}
-.header {border-bottom: 1px solid #ECECEC;}
-.site-nav-link {position:relative;}
-.current::after
+    .nav__bluelogo {color: #2196F3;}
+    .site-nav{
+        position: relative;
+        list-style:none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        display:flex; 
+        align-items: center;
+        justify-content:space-around;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+.site-nav__link {position:relative;}
+.site-nav__current::after
  {content:"";
 position:absolute;
 width: 100%;
@@ -67,26 +79,16 @@ top: 78px;
 display:block;
 background: #2196F3;
 border-radius: 2px;}
-    .site-nav{
-    position: relative;
-    list-style:none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    display:flex; 
-    align-items: center;
-    justify-content:space-around;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
+.site-nav__text {text-decoration: none;list-style:none; padding-top: 32px;margin-right: 50px;
+    padding-bottom: 32px;transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+.site-nav__text:hover, .site-nav__text:focus{color:#2196F3;}
+
     .click {display: flex;align-items: center;}
-    .list {color: black;}
+    .site-nav__list {color: black;}
     .contact {color: #757575;}
    .mail {margin-right: 10px; fill:currentColor;transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
    .mail:hover, .mail:focus {fill:#2196F3;}
-   .link {margin-right: 50px;}
-    .link {text-decoration: none;list-style:none; padding-top: 32px;
-        padding-bottom: 32px;transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
-    .link:hover, .link:focus{color:#2196F3;}
+  
     .communication {
         text-decoration:none; list-style:none;
         font-weight: 500;
