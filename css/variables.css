@@ -1,0 +1,12 @@
+@charset "UTF-8";
+:root {
+  /* Основные шрифты и цвета */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  color: #212121;
+  color: #757575;
+  color: #FFFFFF;
+  color: #2196F3;
+  color: #F5F4FA;
+  color: rgba(255, 255, 255, 0.6);
+}/*# sourceMappingURL=variables.css.map */
