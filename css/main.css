@@ -468,7 +468,6 @@ button {
   padding-left: -51px;
   background-image: url(../images/иконки/checkbox.svg);
 }
-
 .checkinput:checked + .checkbox {
   background-image: url(../images/иконки/icon-check.svg);
 }
