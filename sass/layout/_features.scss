@@ -1,11 +1,13 @@
 .features {display:flex; list-style: none; background:#FFFFFF;}
-    .features__icons {width:270px;}
-    .features__icons:not(:last-child) { margin-right: 30px;}
-    .features__icons::before{
-        display:block;
-        content:"";
-        background: #F5F4FA;
-        border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px;}
+    .features__icons {width:270px;
+        &:not(:last-child) { margin-right: 30px;}
+        &::before{
+            display:block;
+            content:"";
+            background: #F5F4FA;
+            border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px;}}
+  
+    
     .features__details::before {background-image: url(../images/иконки/details.svg);}
     .features__punctuality::before {background-image: url(../images/иконки/punctuality.svg);width: 270px;}
     .features__planning::before {background-image: url(../images/иконки/planning.svg);}

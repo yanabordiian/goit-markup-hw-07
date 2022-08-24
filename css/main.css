@@ -561,11 +561,9 @@ button {
 .features__icons {
   width: 270px;
 }
-
 .features__icons:not(:last-child) {
   margin-right: 30px;
 }
-
 .features__icons::before {
   display: block;
   content: "";
@@ -641,7 +639,6 @@ button {
 .work__list {
   position: relative;
 }
-
 .work__list:not(:last-child) {
   margin-right: 30px;
 }
@@ -844,7 +841,6 @@ button {
 .footer {
   list-style: none;
 }
-
 .footer:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -868,7 +864,6 @@ button {
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .portfolio:nth-child(3n+1) {
   padding-right: 0px;
 }

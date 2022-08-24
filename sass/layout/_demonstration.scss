@@ -7,8 +7,9 @@
         letter-spacing: 0.03em;
         color: #212121;margin-bottom: 50px;}
 .work {display: flex;}
-.work__list {position:relative;}
-.work__list:not(:last-child) { margin-right: 30px;}
+.work__list {position:relative;
+        &:not(:last-child) { margin-right: 30px;}}
+
 .work__photo { content:""; display: block; max-width: 100%;height: auto;}
 .work__div {position: absolute;
      display:flex;
