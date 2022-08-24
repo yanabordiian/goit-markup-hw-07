@@ -10,8 +10,7 @@
                       line-height: 1.19;
                       color: #FFFFFF;margin-bottom: 20px;}
 .footer-column__span {color: #2196F3;}   
-.footer {list-style: none;
-    &:not(:last-child) { margin-bottom: 9px;}}
+.footer {list-style: none; &:not(:last-child) { margin-bottom: 9px;}}
 .footer__address {font-family: 'Roboto';
                   font-style: normal;
                   font-weight: 400;
